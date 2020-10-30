@@ -53,6 +53,6 @@ module Api
         def record_params
           params.require(:record).permit(:title, :year, :artist_id)
         end
+      end 
     end
   end
-end
